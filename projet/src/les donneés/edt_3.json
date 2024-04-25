@@ -94,13 +94,7 @@
 			"NB_CO": "1",
 			"NB_TP": "0"
 		},
-		{
-			"ID_COURSE": "English",
-			"TITLE": "Technical English",
-			"NB_TD": "0",
-			"NB_CO": "1",
-			"NB_TP": "0"
-		},
+		
 		{
 			"ID_COURSE": "PL",
 			"TITLE": "Programmation Linéaire",
@@ -130,7 +124,12 @@
 			"COURSES": [
 				"IHM",
 				"SE2",
-				"PL"
+				"PL",
+				"ECO",
+				"GL",
+				"PROBA/STAT",
+				"COMPILATION"
+			
 			],
 			"SECTIONS": [{
 				"ID_SECTION":"S1",
