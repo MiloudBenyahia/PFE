@@ -117,8 +117,22 @@
 				"SM1",
 				"ANA1"
 			],
-			"NB_SECTIONS": 2,
-			"NB_GROUPES": 8
+			"SECTIONS": [{
+				"ID_SECTION":"S1",
+				"NB_GROUPES": 5
+			  },
+		  {
+			"ID_SECTION":"S2",
+		  "NB_GROUPES": 5
+		  },
+		  {
+			"ID_SECTION":"S3",
+		  "NB_GROUPES": 4
+		  },
+		  {
+			"ID_SECTION":"S4",
+		  "NB_GROUPES": 4
+		  }]
 		}
 	],
 	"SALLES_TD": [
