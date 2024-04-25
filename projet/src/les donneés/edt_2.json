@@ -115,7 +115,11 @@
 			"COURSES": [
 				"ALGO3",
 				"SI",
-				"AO"
+				"AO",
+				"MN",
+				"English",
+				"THG",
+				"LM"
 			],
 			"SECTIONS": [{
 				"ID_SECTION":"S1",
