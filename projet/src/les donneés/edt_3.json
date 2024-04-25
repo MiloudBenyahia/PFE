@@ -1,0 +1,203 @@
+{
+	"TEACHERS": [
+		{
+			"ID_TEACHER": "E0012",
+			"NAME": "Une",
+			"SURNAME": "Personne",
+			"COURSES": [
+				"IHM"
+			]
+		},
+		{
+			"ID_TEACHER": "E0013",
+			"NAME": "Ahlem",
+			"SURNAME": "Tlemsani",
+			"COURSES": [
+				"COMPILATION"
+			]
+		},
+		{
+			"ID_TEACHER": "E0009",
+			"NAME": "Benyahia",
+			"SURNAME": "Miloud",
+			"COURSES": [
+				"SE2"
+			]
+		},
+		{
+			"ID_TEACHER": "E0015",
+			"NAME": "Une",
+			"SURNAME": "Personne",
+			"COURSES": [
+				"PROBA/STAT"
+			]
+		},
+		{
+			"ID_TEACHER": "E0011",
+			"NAME": "Saad",
+			"SURNAME": "Tamer",
+			"COURSES": [
+				"English"
+			]
+		},
+        {
+			"ID_TEACHER": "E0016",
+			"NAME": "Sid",
+			"SURNAME": "Ahmed",
+			"COURSES": [
+				"PL"
+			]
+		},
+        {
+			"ID_TEACHER": "E0017",
+			"NAME": "Jalil",
+			"SURNAME": "Sofian",
+			"COURSES": [
+				"GL"
+			]
+		},
+		{
+			"ID_TEACHER": "E0017",
+			"NAME": "Yacine",
+			"SURNAME": "Faysal",
+			"COURSES": [
+				"ECO"
+			]
+		}
+	],
+	"COURSES": [
+		{
+			"ID_COURSE": "IHM",
+			"TITLE": "Interface Homme-Machine",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "1"
+		},
+		{
+			"ID_COURSE": "COMPILATION",
+			"TITLE": "Compilation informatique",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "1"
+		},
+		{
+			"ID_COURSE": "SE2",
+			"TITLE": "Systèmes D'Exploitation",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "PROBA/STAT",
+			"TITLE": "Probabilités et Statistique",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "English",
+			"TITLE": "Technical English",
+			"NB_TD": "0",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "PL",
+			"TITLE": "Programmation Linéaire",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "1"
+		},
+        {
+			"ID_COURSE": "GL",
+			"TITLE": "Génie Logiciel",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "ECO",
+			"TITLE": "Economie numirique",
+			"NB_TD": "0",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		}
+	],
+	"PROMOTIONS": [
+		{
+			"TITLE": "Licence 3 Informatique ",
+			"ID_PROMOTION": "L3_INFO",
+			"COURSES": [
+				"IHM",
+				"SE2",
+				"PL"
+			],
+			"NB_SECTIONS": 1,
+			"NB_GROUPES": 5
+		}
+	],
+	"SALLES_TD": [
+		{
+			"ID_SALLE_TD": "S1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TD": "S2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TD": "S3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"SALLES_TP": [
+		{
+			"ID_SALLE_TP": "P1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TP": "P2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TP": "P3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"AMPHIS": [
+		{
+			"ID_AMPHI": "A1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_AMPHI": "A2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_AMPHI": "A3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"SEANCES": [
+		{
+			"ID_SEANCE": "S1",
+			"HORAIRE": "08h30-10h00"
+		},
+		{
+			"ID_SEANCE": "S2",
+			"HORAIRE": "10h00-11h30"
+		},
+		{
+			"ID_SEANCE": "S3",
+			"HORAIRE": "12h30-1400"
+		},
+		{
+			"ID_SEANCE": "S4",
+			"HORAIRE": "14h00-15h30"
+		},
+		{
+			"ID_SEANCE": "S5",
+			"HORAIRE": "15h30-17h00"
+		}
+	]
+}

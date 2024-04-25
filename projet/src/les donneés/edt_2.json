@@ -1,0 +1,188 @@
+{
+	"TEACHERS": [
+		{
+			"ID_TEACHER": "E0016",
+			"NAME": "Sid",
+			"SURNAME": "Ahmed",
+			"COURSES": [
+				"MN"
+			]
+		},
+		{
+			"ID_TEACHER": "E0008",
+			"NAME": "Si bouazza",
+			"SURNAME": "Oussama",
+			"COURSES": [
+				"ALGO3"
+			]
+		},
+		{
+			"ID_TEACHER": "E0009",
+			"NAME": "Benyahia",
+			"SURNAME": "Miloud",
+			"COURSES": [
+				"LM"
+			]
+		},
+		{
+			"ID_TEACHER": "E0010",
+			"NAME": "Chaouch",
+			"SURNAME": "Mohammed",
+			"COURSES": [
+				"AO"
+			]
+		},
+		{
+			"ID_TEACHER": "E0015",
+			"NAME": "Une",
+			"SURNAME": "Personne",
+			"COURSES": [
+				"THG"
+			]
+		},
+		{
+			"ID_TEACHER": "E0011",
+			"NAME": "Saad",
+			"SURNAME": "Tamer",
+			"COURSES": [
+				"English"
+			]
+		},
+		{
+			"ID_TEACHER": "E0017",
+			"NAME": "Jalil",
+			"SURNAME": "Sofian",
+			"COURSES": [
+				"SI"
+			]
+		}
+	],
+	"COURSES": [
+		{
+			"ID_COURSE": "MN",
+			"TITLE": "Méthodes Numériques",
+			"NB_TD": "0",
+			"NB_CO": "1",
+			"NB_TP": "1"
+		},
+		{
+			"ID_COURSE": "LM",
+			"TITLE": "Logique Mathematique",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "AO",
+			"TITLE": "Architecture des Ordinateurs",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "1"
+		},
+		{
+			"ID_COURSE": "THG",
+			"TITLE": "Théorie de Graphes",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "English",
+			"TITLE": "Technical English",
+			"NB_TD": "0",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "ALGO3",
+			"TITLE": "Algorithmique et structure de données 3",
+			"NB_TD": "1",
+			"NB_CO": "2",
+			"NB_TP": "1"
+		},
+		{
+			"ID_COURSE": "SI",
+			"TITLE": "Systèmes d'Information",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "1"
+		}
+	],
+	"PROMOTIONS": [
+		{
+			"TITLE": "Licence 2 Informatique ",
+			"ID_PROMOTION": "L2_INFO",
+			"COURSES": [
+				"ALGO3",
+				"SI",
+				"AO"
+			],
+			"NB_SECTIONS": 2,
+			"NB_GROUPES": 8
+		}
+	],
+	"SALLES_TD": [
+		{
+			"ID_SALLE_TD": "S1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TD": "S2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TD": "S3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"SALLES_TP": [
+		{
+			"ID_SALLE_TP": "P1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TP": "P2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TP": "P3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"AMPHIS": [
+		{
+			"ID_AMPHI": "A1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_AMPHI": "A2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_AMPHI": "A3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"SEANCES": [
+		{
+			"ID_SEANCE": "S1",
+			"HORAIRE": "08h30-10h00"
+		},
+		{
+			"ID_SEANCE": "S2",
+			"HORAIRE": "10h00-11h30"
+		},
+		{
+			"ID_SEANCE": "S3",
+			"HORAIRE": "12h30-1400"
+		},
+		{
+			"ID_SEANCE": "S4",
+			"HORAIRE": "14h00-15h30"
+		},
+		{
+			"ID_SEANCE": "S5",
+			"HORAIRE": "15h30-17h00"
+		}
+	]
+}

@@ -1,0 +1,188 @@
+{
+	"TEACHERS": [
+		{
+			"ID_TEACHER": "E0000",
+			"NAME": "Kaddour",
+			"SURNAME": "Mohammed",
+			"COURSES": [
+				"Analyse1"
+			]
+		},
+		{
+			"ID_TEACHER": "E0001",
+			"NAME": "Sand",
+			"SURNAME": "Kadda",
+			"COURSES": [
+				"ALGO1"
+			]
+		},
+		{
+			"ID_TEACHER": "E0002",
+			"NAME": "omar",
+			"SURNAME": "Houari",
+			"COURSES": [
+				"Algebre1"
+			]
+		},
+		{
+			"ID_TEACHER": "E0003",
+			"NAME": "Khobai",
+			"SURNAME": "Salim",
+			"COURSES": [
+				"Sm1"
+			]
+		},
+		{
+			"ID_TEACHER": "E0004",
+			"NAME": "Zoubier",
+			"SURNAME": "Faouzi",
+			"COURSES": [
+				"Composants"
+			]
+		},
+		{
+			"ID_TEACHER": "E0005",
+			"NAME": "Saad",
+			"SURNAME": "Tamer",
+			"COURSES": [
+				"Terminologie"
+			]
+		},
+		{
+			"ID_TEACHER": "E0006",
+			"NAME": "Tipou",
+			"SURNAME": "Kaddirou",
+			"COURSES": [
+				"Langue"
+			]
+		}
+	],
+	"COURSES": [
+		{
+			"ID_COURSE": "ALGO1",
+			"TITLE": "Algorithmique et structures de données",
+			"NB_TD": "1",
+			"NB_CO": "2",
+			"NB_TP": "2"
+		},
+		{
+			"ID_COURSE": "Analyse1",
+			"TITLE": "Analyse1",
+			"NB_TD": "2",
+			"NB_CO": "2",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "Algebre1",
+			"TITLE": "Algebre1",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "Sm1",
+			"TITLE": "Structure Machine 1",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "Composants",
+			"TITLE": "Electronique et Composants des Systemes",
+			"NB_TD": "1",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "Terminologie",
+			"TITLE": "Terminologie Scientifique et expression",
+			"NB_TD": "0",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		},
+		{
+			"ID_COURSE": "Langue",
+			"TITLE": "Langue Etrangere",
+			"NB_TD": "0",
+			"NB_CO": "1",
+			"NB_TP": "0"
+		}	
+	],
+	"PROMOTIONS": [
+		{
+			"TITLE": "Licence 1 Informatique ",
+			"ID_PROMOTION": "L1_INFO",
+			"COURSES": [
+				"ALGO1",
+				"SM1",
+				"ANA1"
+			],
+			"NB_SECTIONS": 2,
+			"NB_GROUPES": 8
+		}
+	],
+	"SALLES_TD": [
+		{
+			"ID_SALLE_TD": "S1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TD": "S2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TD": "S3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"SALLES_TP": [
+		{
+			"ID_SALLE_TP": "P1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TP": "P2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_SALLE_TP": "P3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"AMPHIS": [
+		{
+			"ID_AMPHI": "A1",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_AMPHI": "A2",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		},
+		{
+			"ID_AMPHI": "A3",
+			"LOCALISATION": "IGMO/BLOC pédagogique"
+		}
+	],
+	"SEANCES": [
+		{
+			"ID_SEANCE": "S1",
+			"HORAIRE": "08h30-10h00"
+		},
+		{
+			"ID_SEANCE": "S2",
+			"HORAIRE": "10h00-11h30"
+		},
+		{
+			"ID_SEANCE": "S3",
+			"HORAIRE": "12h30-1400"
+		},
+		{
+			"ID_SEANCE": "S4",
+			"HORAIRE": "14h00-15h30"
+		},
+		{
+			"ID_SEANCE": "S5",
+			"HORAIRE": "15h30-17h00"
+		}
+	]
+}
