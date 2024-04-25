@@ -115,7 +115,11 @@
 			"COURSES": [
 				"ALGO1",
 				"SM1",
-				"ANA1"
+				"ANA1",
+				"Langue",
+				"Terminologie",
+				"Composants",
+				 "Algebre1"
 			],
 			"SECTIONS": [{
 				"ID_SECTION":"S1",
