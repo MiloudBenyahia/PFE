@@ -132,8 +132,11 @@
 				"SE2",
 				"PL"
 			],
-			"NB_SECTIONS": 1,
-			"NB_GROUPES": 5
+			"SECTIONS": [{
+				"ID_SECTION":"S1",
+				"NB_GROUPES": 5
+  
+		  }]
 		}
 	],
 	"SALLES_TD": [
