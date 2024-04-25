@@ -117,8 +117,13 @@
 				"SI",
 				"AO"
 			],
-			"NB_SECTIONS": 2,
-			"NB_GROUPES": 8
+			"SECTIONS": [{
+				"ID_SECTION":"S1",
+				"NB_GROUPES": 5
+  
+		  },
+		  {"ID_SECTION":"S2",
+		  "NB_GROUPES": 5}]
 		}
 	],
 	"SALLES_TD": [
